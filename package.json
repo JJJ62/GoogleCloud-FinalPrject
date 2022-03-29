@@ -1,0 +1,26 @@
+{
+  "name": "auth0-nodejs-webapp-sample-new-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^6.6.2",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "~4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "~4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.8.0",
+    "jwks-rsa": "^2.0.5",
+    "morgan": "~1.10.0",
+    "passport": "^0.5.0",
+    "passport-auth0": "^1.4.1",
+    "pug": "^3.0.2",
+    "request": "^2.88.2"
+  }
+}
